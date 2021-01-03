@@ -5,7 +5,7 @@ from flask import Flask, render_template, request
 app = Flask(__name__)
 
 # Start an app route which is '/'
-@app.route('/')
+@app.route('https://confusionmatrix.herokuapp.com/')
 #Declare the main function
 def main():
     return render_template('app.html')
